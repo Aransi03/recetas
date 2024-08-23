@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(130, 51, 51);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    width: 70;
+    color: black;
+    font-family: "DM Serif Text", serif;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentacion h1{
+font-size: 25px;
+color: rgb(111, 44, 44);
+}
+.presentacion p{
+    width: 70%;
+    font-size: 20px;
+    padding: 5px;
+    font-family: "Indie Flower", cursive;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-family: "Indie Flower", cursive;
+}
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: "Indie Flower", cursive;
+}
+#HOME{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#HOME iframe{
+    padding: 10px;
+    margin: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(227, 97, 4);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    border-radius: 50%;
+}
